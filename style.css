@@ -14,7 +14,7 @@ html, body{
 	height: 100%;
 	width: 80%;
 	margin: auto;
-}
+	}
 
 .card{
 	border: 1px black dotted;
@@ -35,4 +35,24 @@ html, body{
 	padding: 5px;
 	border: 3px solid #3f888f;
 	outline: 2px solid pink;
+}
+
+@media (min-width: 960px){
+	body{
+		background: red;
+	}
+
+	.row{
+	display: flex;
+	height: 600px;
+	background: blue;
+	align-items: flex-end;
+	}
+
+
+	}
+@media (min-width: 1200px) {
+	body{
+		background: yellow;
+	}
 }
